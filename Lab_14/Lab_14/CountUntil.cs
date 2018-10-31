@@ -21,6 +21,7 @@ namespace Lab_14
                 c.IncrementCount();
                 Console.WriteLine($"{c.GetCount()} {c.GetName()}");
             }
+            c.ResetCount();
         }
     }
 }

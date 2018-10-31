@@ -13,20 +13,14 @@ namespace Lab_14
         CountUntil countUntil = new CountUntil();
         public CountTestApp()
         {
-            Console.WriteLine($"Counting Alligator...");
+            Console.WriteLine($"\nCountin' dem 'Gators...\n");
             CountUntil.CountTheCounted(alligator, 3);
-            Console.WriteLine($"Counting Sheep...");
+            Console.WriteLine($"\nCounting little fluffy Sheep...\n");
             CountUntil.CountTheCounted(sheep, 2);
+            Console.WriteLine();
             CountUntil.CountTheCounted((Sheep)(sheep.Clone()), 3);
+            Console.WriteLine();
             CountUntil.CountTheCounted(sheep, 1);
         }
-
-       
-        
-           
-        
-       
-        
-        
     }
 }
